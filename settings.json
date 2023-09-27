@@ -1,0 +1,174 @@
+{
+    "editor.fontSize": 18,
+    "editor.lineHeight":1.5,
+    "prettier.tabWidth": 4,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "update.showReleaseNotes": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "vim.leader": "<Space>",
+    "vim.normalModeKeyBindings": [
+        // NAVIGATION
+        // switch b/w buffers
+        { "before": ["<S-h>"], "commands": [":bprevious"] },
+        { "before": ["<S-l>"], "commands": [":bnext"] },
+
+        // splits
+        { "before": ["leader", "v"], "commands": [":vsplit"] },
+        { "before": ["leader", "s"], "commands": [":split"] },
+        {
+            "before": ["leader", "b", "h"],
+            "commands": [
+                {
+                    "command": "workbench.action.closeEditorsToTheLeft"
+                }
+            ]
+        },
+        {
+            "before": ["leader", "b", "l"],
+            "commands": [
+                {
+                    "command": "workbench.action.closeEditorsToTheRight"
+                }
+            ]
+        },
+        {
+            "before": ["leader", "c"],
+            "commands": [
+                {
+                    "command": "workbench.action.closeActiveEditor"
+                }
+            ]
+        },
+        {
+            "before": ["leader", "f"],
+            "commands": [
+                {
+                    "command": "editor.action.formatDocument"
+                }
+            ]
+        },
+        {
+            "before": ["leader", "g", "d"],
+            "commands": [
+                {
+                    "command": "editor.action.goToDefinition"
+                }
+            ]
+        },
+        // Folding
+        {
+            "before": ["leader", "f", "l"],
+            "commands": [
+                {
+                    "command": "editor.fold"
+                }
+            ]
+        },
+        {
+            "before": ["leader", "u", "f", "l"],
+            "commands": [
+                {
+                    "command": "editor.unfold"
+                }
+            ]
+        },
+        // Commenting
+        {
+            "before": ["leader", "/"],
+            "commands": [
+                {
+                    "command": "editor.action.commentLine"
+                }
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["leader", "/"],
+            "commands": [
+                {
+                    "command": "editor.action.commentLine"
+                }
+            ]
+        },
+        // Clipboard
+        {
+            "before": ["leader", "y"],
+            "commands": [
+                {
+                    "command": "editor.action.clipboardCopyAction"
+                }
+            ]
+        }
+    ],
+    "editor.lineNumbers": "relative",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontFamily": "operator mono light",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "zenMode.centerLayout": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "italic font",
+                "scope": [
+                    "comment",
+                    "storage",
+                    "keyword.control",
+                    "keyword.control.from",
+                    "keyword.control.flow",
+                    "keyword.control.import",
+                    "keyword.control.export",
+                    "keyword.control.default",
+                    "keyword.operator.new",
+                    "keyword.control.trycatch",
+                    "keyword.control.conditional",
+                    "variable.language.this",
+                    "variable.language.super",
+                    "storage.type",
+                    "storage.type.class",
+                    "storage.modifier.tsx",
+                    "storage.type.function",
+                    "storage.modifier.async"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "explorer.confirmDelete": false,
+    "editor.guides.indentation": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.renderWhitespace": "none",
+    "workbench.colorTheme": "One Dark Pro",
+    "explorer.confirmDragAndDrop": false,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.openRepositoryInParentFolders": "never",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.donotShowInfoMsg": true
+}
