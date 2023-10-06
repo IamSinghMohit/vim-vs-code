@@ -2,22 +2,27 @@
 [
     // Terminal
     {
-        "key": "ctrl+shift+a",
+        "key": "ctrl+shift+k",
         "command": "workbench.action.terminal.focusNext",
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+shift+b",
+        "key": "ctrl+shift+j",
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+shift+j",
+        "key": "ctrl+\\",
         "command": "workbench.action.togglePanel"
     },
     {
-        "key": "ctrl+shift+n",
+        "key": "ctrl+n",
         "command": "workbench.action.terminal.new",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "workbench.action.terminal.kill",
         "when": "terminalFocus"
     },
     // Panes
