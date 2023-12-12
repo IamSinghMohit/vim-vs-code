@@ -145,6 +145,25 @@
                 ],
                 "settings": {
                     "fontStyle": "italic"
+                },
+            // another configuration for better italics
+                  {
+                    "name": "italic font",
+                    "scope": [
+                        "comment",
+                        "keyword.control.from",
+                        "keyword.control.flow",
+                        "keyword.operator.new",
+                        "keyword.control.trycatch",
+                        "keyword.control.conditional",
+                        "variable.language.this",
+                        "variable.language.super",
+                        "storage.type.class",
+                        "storage.modifier.async"
+                    ],
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
                 }
             }
         ]
