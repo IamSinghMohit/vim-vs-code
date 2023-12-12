@@ -151,7 +151,6 @@
                     "name": "italic font",
                     "scope": [
                         "comment",
-                        "keyword.control.from",
                         "keyword.control.flow",
                         "keyword.operator.new",
                         "keyword.control.trycatch",
